@@ -23,7 +23,7 @@ setInterval(async () => {
 
     try {
       await axios.post(
-        "https://hashfor-dusky.vercel.app/api/cron-daily",
+        "https://www.hashfor.com/api/cron-daily",
         {},
         { headers: { Authorization: `Bearer ${process.env.CRON_SECRET}` } }
       );
